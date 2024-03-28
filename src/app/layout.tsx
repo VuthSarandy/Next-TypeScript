@@ -26,12 +26,11 @@ export const metadata: Metadata = {
     default: "Shop!68",
   },
   description: "This is my lucky  shop description",
-  keywords: ["shop", "ecommerce", "sell"],
   openGraph: {
     title: "SarandyShop",
     description: "This is description shop",
     images: [ 
-      "https://cdn.pixabay.com/photo/2024/02/22/00/19/hexagon-8588837_1280.jpg",
+      "https://cdn.pixabay.com/photo/2023/09/02/18/07/escalator-8229360_1280.jpg",
     ],
   },
 };
