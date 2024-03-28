@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Kantumruy_Pro, Poppins } from "next/font/google";
 import "./globals.css";
 import NextUILayout from "./NextUIProvider";
 import NavbarComponent from "@/components/layouts/navbar/NavbarComponent";
@@ -9,6 +9,16 @@ import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import Error from "./error";
 
 const inter = Inter({ subsets: ["latin"] });
+const poppin = Poppins({
+  subsets: ["latin"],
+  weight: ["300","400","500","600"],
+  display: "swap",
+  style: ['italic','normal']
+});
+const kantumruy_pro = Kantumruy_Pro({
+  subsets:["khmer"],
+  display: "swap"
+})
 
 export const metadata: Metadata = {
   icons: {
@@ -25,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${poppin.className} ${kantumruy_pro.className}`}>
       
      <NextUILayout>
      <Suspense fallback={<LoadingComponent />}>

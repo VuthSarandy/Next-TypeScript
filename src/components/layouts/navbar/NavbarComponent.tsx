@@ -20,7 +20,7 @@ export default function NavbarComponent() {
       <Navbar className="p-2 bg-amber-600">
         <NavbarBrand>
           <Image width={40} className="mr-4 rounded-full" height={40} src={""} alt={""} />
-          <p className="font-bold text-gray-900">Johnny Sin</p>
+          <p className="font-bold text-gray-900">Sarandy</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
 

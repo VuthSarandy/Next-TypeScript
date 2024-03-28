@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div>
       About Page
-      <button color='primary' onClick={អយស្ទ័រ}>
+      <button color='primary' onClick={sarandy}>
         Error Button
       </button>
     </div>
