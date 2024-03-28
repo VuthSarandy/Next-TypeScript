@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutUsCompo from './aboutUsPageCompo'
+import AboutUsCompo from './AboutUsPageCompo'
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
