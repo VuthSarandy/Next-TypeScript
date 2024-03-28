@@ -29,8 +29,16 @@ export const metadata: Metadata = {
     default: "MyShop"
   },
   description: "This is description",
-  keywords:['shop','eccomerse','sell']
+  keywords:['shop','eccomerse','sell'],
+  openGraph: {
+    title: "SarandyShop",
+    description: "This is description shop",
+    images: [ 
+      "https://cdn.pixabay.com/photo/2024/02/22/00/19/hexagon-8588837_1280.jpg",
+    ],
+  },
 };
+
 
 export default function RootLayout({
   children,
