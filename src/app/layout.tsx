@@ -21,15 +21,12 @@ const kantumruy_pro = Kantumruy_Pro({
 })
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/assets/pic.jpg",
+  title: {
+    template: "%s - SarandyShop",
+    default: "Shop!68",
   },
-  title:{
-    template:"%s - MyShop",
-    default: "MyShop"
-  },
-  description: "This is description",
-  keywords:['shop','eccomerse','sell'],
+  description: "This is my lucky  shop description",
+  keywords: ["shop", "ecommerce", "sell"],
   openGraph: {
     title: "SarandyShop",
     description: "This is description shop",
