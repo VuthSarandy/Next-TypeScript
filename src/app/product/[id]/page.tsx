@@ -1,5 +1,5 @@
 import React from 'react'
-type ParamProps = {
+export type ParamProps = {
     id: string | number
 }
 const page = (params: ParamProps) => {
