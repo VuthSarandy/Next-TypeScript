@@ -59,6 +59,8 @@ export default async function Home() {
       <UserCardComponent
        image={user.image}
        firstName={user.firstName}
+       maidenName={user.maidenName}
+       lastName={user.lastName}
        key={user.id}
       />
      ))}

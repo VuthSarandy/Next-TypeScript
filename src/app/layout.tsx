@@ -30,7 +30,9 @@ export const metadata: Metadata = {
     title: "SarandyShop",
     description: "This is description shop",
     images: 
-      "https://cdn.pixabay.com/photo/2023/09/02/18/07/escalator-8229360_1280.jpg",
+      [
+        "https://cdn.pixabay.com/photo/2023/09/02/18/07/escalator-8229360_1280.jpg"
+      ]
 
   },
 };
